@@ -1,0 +1,123 @@
+{
+  "code-runner.runInTerminal": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "explorer.confirmDelete": false,
+  "explorer.autoReveal": true,
+  "json.schemaDownload.enable": false,
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.colorTheme": "Jellyfish",
+  "workbench.startupEditor": "none",
+  "breadcrumbs.enabled": false,
+  "workbench.sideBar.location": "left",
+  "workbench.statusBar.visible": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "window.titleBarStyle": "custom",
+  "workbench.tree.indent": 16,
+  "explorer.compactFolders": true,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "0xProto Nerd Font Mono",
+  "editor.lineHeight": 1.5,
+  "editor.fontSize": 13,
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "variable.parameter",
+          "meta.object-literal.key"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "[Andromeda]": {
+        // These changes will ONLY happen when "One Dark Pro" is your active theme
+        // "editor.background": "#111111",
+        // "tab.inactiveBackground": "#222222",
+        // "sideBar.background": "#111111",
+        // "activityBar.activeBackground": "#111111ff",
+        // "dropdown.background": "#111111ff",
+        // "titleBar.activeBackground":"#080808ff",
+        // "menubar.selectionBackground":"#111111ff",
+        // "list.activeSelectionBackground":"#111111ff",
+        // "tab.activeBackground":"#222222ff",
+        // "editorGroupHeader.tabsBackground":"#121212",
+        // "tab.unfocusedInactiveBackground":"#080808"
+
+    },
+    "gitDecoration.modifiedResourceForeground": "#73b8ff",
+    "gitDecoration.untrackedResourceForeground": "#7fd962",
+    "gitDecoration.addedResourceForeground": "#81b88b",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "editorOverviewRuler.infoForeground": "#0000",
+    "editorOverviewRuler.warningForeground": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000",
+    "editorOverviewRuler.bracketMatchForeground": "#0000",
+    "editorOverviewRuler.commentForeground": "#0000",
+    "editorOverviewRuler.commentUnresolvedForeground": "#0000",
+    "editorOverviewRuler.currentContentForeground": "#0000",
+    "editorOverviewRuler.commonContentForeground": "#0000",
+    "editorOverviewRuler.incomingContentForeground": "#0000",
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.wordHighlightTextForeground": "#0000"
+  },
+  "workbench.layoutControl.enabled": false,
+  "window.title": "${activeEditorShort}",
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "editor.lightbulb.enabled": "off",
+  "editor.snippetSuggestions": "top",
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": "off",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.overviewRulerBorder": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "emmet.triggerExpansionOnTab": true,
+  "update.mode": "none",
+  "editor.hideCursorInOverviewRuler": true,
+  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.enableVisualBell": false,
+  "scm.diffDecorations": "gutter",
+  "workbench.activityBar.location": "top",
+  "claudeCode.preferredLocation": "panel",
+  "claudeCode.environmentVariables": [],
+  "workbench.settings.applyToAllProfiles": [],
+  "actionCursor.preset": "minimal",
+  "security.workspace.trust.untrustedFiles": "open",
+  "jdk.telemetry.enabled": true,
+  "redhat.telemetry.enabled": true,
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+
+ "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, BreakBeforeBraces: Attach }",
+  "[cpp][c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+  },
+  "[javascript][typescript][json][html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "custom-ui-style.external.imports": [
+    "file:///Users/calinprutean/.config/Code/vscode-custom/style.css",
+
+  ],
+
+
+}

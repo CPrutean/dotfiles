@@ -1,0 +1,81 @@
+# Set the modifier to Command
+kitty_mod cmd
+
+font_family  0xProtoNerdFontMono
+cursor_trail  2
+cursor_trail_decay 0.1 0.5
+font_size                   14
+bold_font                   auto
+italic_font                 auto
+bold_italic_font            auto
+remember_window_size        no
+initial_window_width        950
+initial_window_height       500
+cursor_blink_interval       0.5
+cursor_stop_blinking_after  1
+scrollback_lines            2000
+wheel_scroll_min_lines      1
+enable_audio_bell           no
+
+window_padding_width        10
+hide_window_decorations     titlebar-only 
+
+background_opacity          0.70
+background_blur 15
+# active_border_color #00ff00
+window_margin_width 1
+window_border_width 0.5pt
+# inactive_border_color #cccccc
+# bell_border_color #ff5a00
+
+dynamic_background_opacity  yes
+confirm_os_window_close     0
+
+editor nvim
+
+
+
+enabled_splits splits, stack
+enabled_layouts tall:bias; full_size 1
+
+map cmd+b>shift+5 launch --location=vsplit --cwd=current
+map cmd+b>shift+2 launch --location=hsplit --cwd=current
+map cmd+b>x       close_window
+map cmd+b>z       toggle_layout stack
+
+map cmd+b>h       neighboring_window left
+map cmd+b>l       neighboring_window right
+map cmd+b>k       neighboring_window up
+map cmd+b>j       neighboring_window down
+
+map cmd+b>c       new_tab
+map cmd+b>n       next_tab
+map cmd+b>p       previous_tab
+map cmd+b>,       set_tab_title
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# BEGIN_KITTY_THEME
+# 3024 Night
+include current-theme.conf
+# END_KITTY_THEME

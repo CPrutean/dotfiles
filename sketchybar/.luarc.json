@@ -1,0 +1,9 @@
+{
+  "workspace": {
+    "library": ["~/.config/sketchybar/helpers/SBarLua"],
+    "checkThirdParty": false
+  },
+  "diagnostics": {
+    "globals": ["sbar"]
+  }
+}
